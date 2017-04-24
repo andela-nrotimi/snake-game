@@ -1,0 +1,35 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "An interactive snake game application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "webpack:dev": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-nrotimi/snake-game.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "git"
+  ],
+  "author": "Rotimi Ifedayo Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-nrotimi/snake-game/issues"
+  },
+  "homepage": "https://github.com/andela-nrotimi/snake-game#readme",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "css-loader": "^0.28.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "webpack": "^2.3.2"
+  }
+}
